@@ -1,0 +1,32 @@
+.sidebar {
+    width: 200px;
+    background-color: #282c34;
+    color: white;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .sidebar-title {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .sidebar-nav {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar-nav li {
+    margin: 10px 0;
+  }
+  
+  .sidebar-nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .sidebar-nav a:hover {
+    text-decoration: underline;
+  }
+  
