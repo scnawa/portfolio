@@ -1,0 +1,41 @@
+.bento-box {
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .box {
+    display: flex;
+    padding: 1em;
+    gap: 1em;
+    flex: 1
+  }
+
+  .inner-box {
+    border: 2px solid red;
+    flex: 1;
+    background-color: black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    color: white
+  }
+
+  .about-content {
+    text-align: center;
+    color: white;
+    padding: 1rem;
+  }
+  
+  .about-content h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .about-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+  }
+  

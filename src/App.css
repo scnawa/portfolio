@@ -1,7 +1,12 @@
 .app-container {
   display: flex;
   min-height: 100vh;
-  background-color: aqua;
+  background: linear-gradient(
+    to bottom right, 
+    #8a2be2 0%, 
+    #4b0082 50%, 
+    #000000 100%
+  );
 }
 
 

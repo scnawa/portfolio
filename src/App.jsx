@@ -2,15 +2,16 @@ import './App.css';
 import Sidebar from './Components/Sidebar';
 import { Routes, Route } from 'react-router-dom';
 import Projects from './Pages/Projects';
+import LandingPage from './Pages/LandingPage';
 
 function App() {
   return (
     <div className="app-container">
       <Sidebar />
       <main className="main-content">
-        <h1>Main Area</h1>
         <Routes>
-          <Route path="/projects" element={<Projects />} />
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/Projects" element={<Projects />} />
         </Routes>
       </main>
     </div>
